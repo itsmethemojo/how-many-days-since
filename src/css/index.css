@@ -1,0 +1,24 @@
+div.center {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  margin-top: 100px;
+}
+
+div.xxxlarge {
+  font-size: xxx-large;
+  margin-bottom: 20px;
+}
+
+div.xxlarge {
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
+div.xxsmall {
+  font-size: xx-small;
+}
+
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
