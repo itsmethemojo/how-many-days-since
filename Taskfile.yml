@@ -265,18 +265,18 @@ tasks:
       - task: _script:stop_watch
         vars: {TASK_NAME: "build-dev"}
 
-  build:
-    desc: task build
+  build-on-heroku:
+    desc: task build-on-heroku
     deps: [ _init:check_if_init_needed ]
     cmds:
       - task: _script:start_watch
-        vars: {TASK_NAME: "build"}
+        vars: {TASK_NAME: "build-on-heroku"}
       - task: _print_version
-        vars: {TASK_NAME: "build"}
+        vars: {TASK_NAME: "build-on-heroku"}
       - task: _script:run
-        vars: {TASK_NAME: "build"}
+        vars: {TASK_NAME: "build-on-heroku"}
       - task: _script:stop_watch
-        vars: {TASK_NAME: "build"}
+        vars: {TASK_NAME: "build-on-heroku"}
 
   lint-js:
     desc: task lint-js
