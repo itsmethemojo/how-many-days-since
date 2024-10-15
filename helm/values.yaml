@@ -8,7 +8,7 @@ image:
   repository: ghcr.io/itsmethemojo/how-many-days-since
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "sha-f0e0092"
+  tag: "sha-9902fd5"
 
 imagePullSecrets: []
 nameOverride: ""
