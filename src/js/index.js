@@ -5,7 +5,7 @@ function getDayDifferenceSinceToday(dateString) {
   const date = new Date(
     splittedDateString[0],
     --splittedDateString[1],
-    splittedDateString[2]
+    ++splittedDateString[2]
   );
   const todayDate = new Date();
   return Math.round(Math.abs((todayDate - date) / oneDay));
